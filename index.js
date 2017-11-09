@@ -3,6 +3,6 @@ function calculateVertical(start, end) {
   return (start-end)*264;
 }
 
-function distanceFromHqInBlocks(start, end) {
-  return (start-end);
+function distanceFromHqInBlocks(pickup) {
+  return (42-pickup);
 }
