@@ -2,3 +2,7 @@
 function calculateVertical(start, end) {
   return (start-end)*264;
 }
+
+function distanceFromHqInBlocks(start, end) {
+  return (start-end);
+}
