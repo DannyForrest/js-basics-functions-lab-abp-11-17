@@ -4,5 +4,5 @@ function calculateVertical(start, end) {
 }
 
 function distanceFromHqInBlocks(pickup) {
-  return (42-pickup);
+  return (pickup-42);
 }
